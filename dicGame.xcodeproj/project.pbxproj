@@ -1,0 +1,789 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		653D9B362537F2440090AFE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 653D9B352537F2440090AFE5 /* AppDelegate.m */; };
+		653D9B392537F2440090AFE5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 653D9B382537F2440090AFE5 /* SceneDelegate.m */; };
+		653D9B3C2537F2440090AFE5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 653D9B3B2537F2440090AFE5 /* ViewController.m */; };
+		653D9B3F2537F2440090AFE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 653D9B3D2537F2440090AFE5 /* Main.storyboard */; };
+		653D9B412537F2520090AFE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 653D9B402537F2520090AFE5 /* Assets.xcassets */; };
+		653D9B442537F2520090AFE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 653D9B422537F2520090AFE5 /* LaunchScreen.storyboard */; };
+		653D9B472537F2520090AFE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 653D9B462537F2520090AFE5 /* main.m */; };
+		653D9B512537F2550090AFE5 /* dicGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 653D9B502537F2550090AFE5 /* dicGameTests.m */; };
+		653D9B5C2537F2550090AFE5 /* dicGameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 653D9B5B2537F2550090AFE5 /* dicGameUITests.m */; };
+		653D9B912537F4780090AFE5 /* THUOCL_animal.txt in Resources */ = {isa = PBXBuildFile; fileRef = 653D9B712537F4780090AFE5 /* THUOCL_animal.txt */; };
+		653D9B922537F4780090AFE5 /* 民生词库.docx in Resources */ = {isa = PBXBuildFile; fileRef = 653D9B732537F4780090AFE5 /* 民生词库.docx */; };
+		653D9B932537F4780090AFE5 /* 反动词库（gbk编码）.txt in Resources */ = {isa = PBXBuildFile; fileRef = 653D9B742537F4780090AFE5 /* 反动词库（gbk编码）.txt */; };
+		653D9B942537F4780090AFE5 /* 暴恐词库.txt in Resources */ = {isa = PBXBuildFile; fileRef = 653D9B752537F4780090AFE5 /* 暴恐词库.txt */; };
+		653D9B952537F4780090AFE5 /* sex_mingan.txt in Resources */ = {isa = PBXBuildFile; fileRef = 653D9B762537F4780090AFE5 /* sex_mingan.txt */; };
+		653D9B962537F4780090AFE5 /* 网址.txt in Resources */ = {isa = PBXBuildFile; fileRef = 653D9B772537F4780090AFE5 /* 网址.txt */; };
+		653D9B972537F4780090AFE5 /* 敏感词.txt in Resources */ = {isa = PBXBuildFile; fileRef = 653D9B782537F4780090AFE5 /* 敏感词.txt */; };
+		653D9B982537F4780090AFE5 /* 敏感词及类型.txt in Resources */ = {isa = PBXBuildFile; fileRef = 653D9B792537F4780090AFE5 /* 敏感词及类型.txt */; };
+		653D9B992537F4780090AFE5 /* 政治类.txt in Resources */ = {isa = PBXBuildFile; fileRef = 653D9B7A2537F4780090AFE5 /* 政治类.txt */; };
+		653D9B9A2537F4780090AFE5 /* 涉枪涉爆违法信息关键词.txt in Resources */ = {isa = PBXBuildFile; fileRef = 653D9B7B2537F4780090AFE5 /* 涉枪涉爆违法信息关键词.txt */; };
+		653D9B9B2537F4780090AFE5 /* 民生词库（gbk编码）.txt in Resources */ = {isa = PBXBuildFile; fileRef = 653D9B7C2537F4780090AFE5 /* 民生词库（gbk编码）.txt */; };
+		653D9B9C2537F4780090AFE5 /* 反动词库.docx in Resources */ = {isa = PBXBuildFile; fileRef = 653D9B7D2537F4780090AFE5 /* 反动词库.docx */; };
+		653D9B9D2537F4780090AFE5 /* ad_mingan.txt in Resources */ = {isa = PBXBuildFile; fileRef = 653D9B7E2537F4780090AFE5 /* ad_mingan.txt */; };
+		653D9B9E2537F4780090AFE5 /* THUOCL_chengyu.txt in Resources */ = {isa = PBXBuildFile; fileRef = 653D9B802537F4780090AFE5 /* THUOCL_chengyu.txt */; };
+		653D9B9F2537F4780090AFE5 /* ChengYu_Corpus（5W）.txt in Resources */ = {isa = PBXBuildFile; fileRef = 653D9B812537F4780090AFE5 /* ChengYu_Corpus（5W）.txt */; };
+		653D9BA02537F4780090AFE5 /* THUOCL_medical.txt in Resources */ = {isa = PBXBuildFile; fileRef = 653D9B832537F4780090AFE5 /* THUOCL_medical.txt */; };
+		653D9BA12537F4780090AFE5 /* .wechat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 653D9B862537F4780090AFE5 /* .wechat.jpg */; };
+		653D9BA22537F4780090AFE5 /* donation.md in Resources */ = {isa = PBXBuildFile; fileRef = 653D9B872537F4780090AFE5 /* donation.md */; };
+		653D9BA32537F4780090AFE5 /* .alipay.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 653D9B882537F4780090AFE5 /* .alipay.jpg */; };
+		653D9BA42537F4780090AFE5 /* .img.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 653D9B892537F4780090AFE5 /* .img.jpg */; };
+		653D9BA52537F4780090AFE5 /* THUOCL_it.txt in Resources */ = {isa = PBXBuildFile; fileRef = 653D9B8B2537F4780090AFE5 /* THUOCL_it.txt */; };
+		653D9BA62537F4780090AFE5 /* THUOCL_food.txt in Resources */ = {isa = PBXBuildFile; fileRef = 653D9B8D2537F4780090AFE5 /* THUOCL_food.txt */; };
+		653D9BA82537F4780090AFE5 /* THUOCL_diming.txt in Resources */ = {isa = PBXBuildFile; fileRef = 653D9B902537F4780090AFE5 /* THUOCL_diming.txt */; };
+		653D9BC12538265D0090AFE5 /* LogCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 653D9BC02538265C0090AFE5 /* LogCategory.m */; };
+		653D9BCB2538357A0090AFE5 /* needShowVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 653D9BC92538357A0090AFE5 /* needShowVC.m */; };
+		653D9BCC2538357A0090AFE5 /* needShowVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 653D9BCA2538357A0090AFE5 /* needShowVC.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		653D9B4D2537F2550090AFE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 653D9B292537F2440090AFE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 653D9B302537F2440090AFE5;
+			remoteInfo = dicGame;
+		};
+		653D9B582537F2550090AFE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 653D9B292537F2440090AFE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 653D9B302537F2440090AFE5;
+			remoteInfo = dicGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		653D9B312537F2440090AFE5 /* dicGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dicGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		653D9B342537F2440090AFE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		653D9B352537F2440090AFE5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		653D9B372537F2440090AFE5 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		653D9B382537F2440090AFE5 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		653D9B3A2537F2440090AFE5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		653D9B3B2537F2440090AFE5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		653D9B3E2537F2440090AFE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		653D9B402537F2520090AFE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		653D9B432537F2520090AFE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		653D9B452537F2520090AFE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		653D9B462537F2520090AFE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		653D9B4C2537F2550090AFE5 /* dicGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dicGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		653D9B502537F2550090AFE5 /* dicGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dicGameTests.m; sourceTree = "<group>"; };
+		653D9B522537F2550090AFE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		653D9B572537F2550090AFE5 /* dicGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dicGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		653D9B5B2537F2550090AFE5 /* dicGameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dicGameUITests.m; sourceTree = "<group>"; };
+		653D9B5D2537F2550090AFE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		653D9B712537F4780090AFE5 /* THUOCL_animal.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = THUOCL_animal.txt; sourceTree = "<group>"; };
+		653D9B732537F4780090AFE5 /* 民生词库.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "民生词库.docx"; sourceTree = "<group>"; };
+		653D9B742537F4780090AFE5 /* 反动词库（gbk编码）.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "反动词库（gbk编码）.txt"; sourceTree = "<group>"; };
+		653D9B752537F4780090AFE5 /* 暴恐词库.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "暴恐词库.txt"; sourceTree = "<group>"; };
+		653D9B762537F4780090AFE5 /* sex_mingan.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sex_mingan.txt; sourceTree = "<group>"; };
+		653D9B772537F4780090AFE5 /* 网址.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "网址.txt"; sourceTree = "<group>"; };
+		653D9B782537F4780090AFE5 /* 敏感词.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "敏感词.txt"; sourceTree = "<group>"; };
+		653D9B792537F4780090AFE5 /* 敏感词及类型.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "敏感词及类型.txt"; sourceTree = "<group>"; };
+		653D9B7A2537F4780090AFE5 /* 政治类.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "政治类.txt"; sourceTree = "<group>"; };
+		653D9B7B2537F4780090AFE5 /* 涉枪涉爆违法信息关键词.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "涉枪涉爆违法信息关键词.txt"; sourceTree = "<group>"; };
+		653D9B7C2537F4780090AFE5 /* 民生词库（gbk编码）.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "民生词库（gbk编码）.txt"; sourceTree = "<group>"; };
+		653D9B7D2537F4780090AFE5 /* 反动词库.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "反动词库.docx"; sourceTree = "<group>"; };
+		653D9B7E2537F4780090AFE5 /* ad_mingan.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ad_mingan.txt; sourceTree = "<group>"; };
+		653D9B802537F4780090AFE5 /* THUOCL_chengyu.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = THUOCL_chengyu.txt; sourceTree = "<group>"; };
+		653D9B812537F4780090AFE5 /* ChengYu_Corpus（5W）.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ChengYu_Corpus（5W）.txt"; sourceTree = "<group>"; };
+		653D9B832537F4780090AFE5 /* THUOCL_medical.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = THUOCL_medical.txt; sourceTree = "<group>"; };
+		653D9B862537F4780090AFE5 /* .wechat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = .wechat.jpg; sourceTree = "<group>"; };
+		653D9B872537F4780090AFE5 /* donation.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = donation.md; sourceTree = "<group>"; };
+		653D9B882537F4780090AFE5 /* .alipay.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = .alipay.jpg; sourceTree = "<group>"; };
+		653D9B892537F4780090AFE5 /* .img.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = .img.jpg; sourceTree = "<group>"; };
+		653D9B8B2537F4780090AFE5 /* THUOCL_it.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = THUOCL_it.txt; sourceTree = "<group>"; };
+		653D9B8D2537F4780090AFE5 /* THUOCL_food.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = THUOCL_food.txt; sourceTree = "<group>"; };
+		653D9B902537F4780090AFE5 /* THUOCL_diming.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = THUOCL_diming.txt; sourceTree = "<group>"; };
+		653D9BBF2538265C0090AFE5 /* LogCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogCategory.h; sourceTree = "<group>"; };
+		653D9BC02538265C0090AFE5 /* LogCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogCategory.m; sourceTree = "<group>"; };
+		653D9BC82538357A0090AFE5 /* needShowVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = needShowVC.h; sourceTree = "<group>"; };
+		653D9BC92538357A0090AFE5 /* needShowVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = needShowVC.m; sourceTree = "<group>"; };
+		653D9BCA2538357A0090AFE5 /* needShowVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = needShowVC.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		653D9B2E2537F2440090AFE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		653D9B492537F2550090AFE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		653D9B542537F2550090AFE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		653D9B282537F2440090AFE5 = {
+			isa = PBXGroup;
+			children = (
+				653D9B332537F2440090AFE5 /* dicGame */,
+				653D9B4F2537F2550090AFE5 /* dicGameTests */,
+				653D9B5A2537F2550090AFE5 /* dicGameUITests */,
+				653D9B322537F2440090AFE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		653D9B322537F2440090AFE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				653D9B312537F2440090AFE5 /* dicGame.app */,
+				653D9B4C2537F2550090AFE5 /* dicGameTests.xctest */,
+				653D9B572537F2550090AFE5 /* dicGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		653D9B332537F2440090AFE5 /* dicGame */ = {
+			isa = PBXGroup;
+			children = (
+				653D9B342537F2440090AFE5 /* AppDelegate.h */,
+				653D9B352537F2440090AFE5 /* AppDelegate.m */,
+				653D9B372537F2440090AFE5 /* SceneDelegate.h */,
+				653D9B382537F2440090AFE5 /* SceneDelegate.m */,
+				653D9B3A2537F2440090AFE5 /* ViewController.h */,
+				653D9B3B2537F2440090AFE5 /* ViewController.m */,
+				653D9BC82538357A0090AFE5 /* needShowVC.h */,
+				653D9BC92538357A0090AFE5 /* needShowVC.m */,
+				653D9BCA2538357A0090AFE5 /* needShowVC.xib */,
+				653D9BBE2538265C0090AFE5 /* LogCategory */,
+				653D9B6F2537F4780090AFE5 /* data */,
+				653D9B3D2537F2440090AFE5 /* Main.storyboard */,
+				653D9B402537F2520090AFE5 /* Assets.xcassets */,
+				653D9B422537F2520090AFE5 /* LaunchScreen.storyboard */,
+				653D9B452537F2520090AFE5 /* Info.plist */,
+				653D9B462537F2520090AFE5 /* main.m */,
+			);
+			path = dicGame;
+			sourceTree = "<group>";
+		};
+		653D9B4F2537F2550090AFE5 /* dicGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				653D9B502537F2550090AFE5 /* dicGameTests.m */,
+				653D9B522537F2550090AFE5 /* Info.plist */,
+			);
+			path = dicGameTests;
+			sourceTree = "<group>";
+		};
+		653D9B5A2537F2550090AFE5 /* dicGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				653D9B5B2537F2550090AFE5 /* dicGameUITests.m */,
+				653D9B5D2537F2550090AFE5 /* Info.plist */,
+			);
+			path = dicGameUITests;
+			sourceTree = "<group>";
+		};
+		653D9B6F2537F4780090AFE5 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				653D9B722537F4780090AFE5 /* 敏感词库 */,
+				653D9B702537F4780090AFE5 /* 动物词库 */,
+				653D9B7F2537F4780090AFE5 /* 成语词库 */,
+				653D9B822537F4780090AFE5 /* 医学词库 */,
+				653D9B842537F4780090AFE5 /* .logo图片 */,
+				653D9B8A2537F4780090AFE5 /* IT词库 */,
+				653D9B8C2537F4780090AFE5 /* 食物词库 */,
+				653D9B8E2537F4780090AFE5 /* 地名词库 */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		653D9B702537F4780090AFE5 /* 动物词库 */ = {
+			isa = PBXGroup;
+			children = (
+				653D9B712537F4780090AFE5 /* THUOCL_animal.txt */,
+			);
+			path = "动物词库";
+			sourceTree = "<group>";
+		};
+		653D9B722537F4780090AFE5 /* 敏感词库 */ = {
+			isa = PBXGroup;
+			children = (
+				653D9B732537F4780090AFE5 /* 民生词库.docx */,
+				653D9B742537F4780090AFE5 /* 反动词库（gbk编码）.txt */,
+				653D9B752537F4780090AFE5 /* 暴恐词库.txt */,
+				653D9B762537F4780090AFE5 /* sex_mingan.txt */,
+				653D9B772537F4780090AFE5 /* 网址.txt */,
+				653D9B782537F4780090AFE5 /* 敏感词.txt */,
+				653D9B792537F4780090AFE5 /* 敏感词及类型.txt */,
+				653D9B7A2537F4780090AFE5 /* 政治类.txt */,
+				653D9B7B2537F4780090AFE5 /* 涉枪涉爆违法信息关键词.txt */,
+				653D9B7C2537F4780090AFE5 /* 民生词库（gbk编码）.txt */,
+				653D9B7D2537F4780090AFE5 /* 反动词库.docx */,
+				653D9B7E2537F4780090AFE5 /* ad_mingan.txt */,
+			);
+			path = "敏感词库";
+			sourceTree = "<group>";
+		};
+		653D9B7F2537F4780090AFE5 /* 成语词库 */ = {
+			isa = PBXGroup;
+			children = (
+				653D9B802537F4780090AFE5 /* THUOCL_chengyu.txt */,
+				653D9B812537F4780090AFE5 /* ChengYu_Corpus（5W）.txt */,
+			);
+			path = "成语词库";
+			sourceTree = "<group>";
+		};
+		653D9B822537F4780090AFE5 /* 医学词库 */ = {
+			isa = PBXGroup;
+			children = (
+				653D9B832537F4780090AFE5 /* THUOCL_medical.txt */,
+			);
+			path = "医学词库";
+			sourceTree = "<group>";
+		};
+		653D9B842537F4780090AFE5 /* .logo图片 */ = {
+			isa = PBXGroup;
+			children = (
+				653D9B852537F4780090AFE5 /* .捐赠图片 */,
+				653D9B892537F4780090AFE5 /* .img.jpg */,
+			);
+			path = ".logo图片";
+			sourceTree = "<group>";
+		};
+		653D9B852537F4780090AFE5 /* .捐赠图片 */ = {
+			isa = PBXGroup;
+			children = (
+				653D9B862537F4780090AFE5 /* .wechat.jpg */,
+				653D9B872537F4780090AFE5 /* donation.md */,
+				653D9B882537F4780090AFE5 /* .alipay.jpg */,
+			);
+			path = ".捐赠图片";
+			sourceTree = "<group>";
+		};
+		653D9B8A2537F4780090AFE5 /* IT词库 */ = {
+			isa = PBXGroup;
+			children = (
+				653D9B8B2537F4780090AFE5 /* THUOCL_it.txt */,
+			);
+			path = "IT词库";
+			sourceTree = "<group>";
+		};
+		653D9B8C2537F4780090AFE5 /* 食物词库 */ = {
+			isa = PBXGroup;
+			children = (
+				653D9B8D2537F4780090AFE5 /* THUOCL_food.txt */,
+			);
+			path = "食物词库";
+			sourceTree = "<group>";
+		};
+		653D9B8E2537F4780090AFE5 /* 地名词库 */ = {
+			isa = PBXGroup;
+			children = (
+				653D9B902537F4780090AFE5 /* THUOCL_diming.txt */,
+			);
+			path = "地名词库";
+			sourceTree = "<group>";
+		};
+		653D9BBE2538265C0090AFE5 /* LogCategory */ = {
+			isa = PBXGroup;
+			children = (
+				653D9BBF2538265C0090AFE5 /* LogCategory.h */,
+				653D9BC02538265C0090AFE5 /* LogCategory.m */,
+			);
+			path = LogCategory;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		653D9B302537F2440090AFE5 /* dicGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 653D9B602537F2550090AFE5 /* Build configuration list for PBXNativeTarget "dicGame" */;
+			buildPhases = (
+				653D9B2D2537F2440090AFE5 /* Sources */,
+				653D9B2E2537F2440090AFE5 /* Frameworks */,
+				653D9B2F2537F2440090AFE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dicGame;
+			productName = dicGame;
+			productReference = 653D9B312537F2440090AFE5 /* dicGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		653D9B4B2537F2550090AFE5 /* dicGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 653D9B632537F2550090AFE5 /* Build configuration list for PBXNativeTarget "dicGameTests" */;
+			buildPhases = (
+				653D9B482537F2550090AFE5 /* Sources */,
+				653D9B492537F2550090AFE5 /* Frameworks */,
+				653D9B4A2537F2550090AFE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				653D9B4E2537F2550090AFE5 /* PBXTargetDependency */,
+			);
+			name = dicGameTests;
+			productName = dicGameTests;
+			productReference = 653D9B4C2537F2550090AFE5 /* dicGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		653D9B562537F2550090AFE5 /* dicGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 653D9B662537F2550090AFE5 /* Build configuration list for PBXNativeTarget "dicGameUITests" */;
+			buildPhases = (
+				653D9B532537F2550090AFE5 /* Sources */,
+				653D9B542537F2550090AFE5 /* Frameworks */,
+				653D9B552537F2550090AFE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				653D9B592537F2550090AFE5 /* PBXTargetDependency */,
+			);
+			name = dicGameUITests;
+			productName = dicGameUITests;
+			productReference = 653D9B572537F2550090AFE5 /* dicGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		653D9B292537F2440090AFE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					653D9B302537F2440090AFE5 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					653D9B4B2537F2550090AFE5 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 653D9B302537F2440090AFE5;
+					};
+					653D9B562537F2550090AFE5 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 653D9B302537F2440090AFE5;
+					};
+				};
+			};
+			buildConfigurationList = 653D9B2C2537F2440090AFE5 /* Build configuration list for PBXProject "dicGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 653D9B282537F2440090AFE5;
+			productRefGroup = 653D9B322537F2440090AFE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				653D9B302537F2440090AFE5 /* dicGame */,
+				653D9B4B2537F2550090AFE5 /* dicGameTests */,
+				653D9B562537F2550090AFE5 /* dicGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		653D9B2F2537F2440090AFE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				653D9BA42537F4780090AFE5 /* .img.jpg in Resources */,
+				653D9B9A2537F4780090AFE5 /* 涉枪涉爆违法信息关键词.txt in Resources */,
+				653D9B932537F4780090AFE5 /* 反动词库（gbk编码）.txt in Resources */,
+				653D9B442537F2520090AFE5 /* LaunchScreen.storyboard in Resources */,
+				653D9BA82537F4780090AFE5 /* THUOCL_diming.txt in Resources */,
+				653D9BCC2538357A0090AFE5 /* needShowVC.xib in Resources */,
+				653D9BA02537F4780090AFE5 /* THUOCL_medical.txt in Resources */,
+				653D9B412537F2520090AFE5 /* Assets.xcassets in Resources */,
+				653D9BA52537F4780090AFE5 /* THUOCL_it.txt in Resources */,
+				653D9B922537F4780090AFE5 /* 民生词库.docx in Resources */,
+				653D9B9E2537F4780090AFE5 /* THUOCL_chengyu.txt in Resources */,
+				653D9B9C2537F4780090AFE5 /* 反动词库.docx in Resources */,
+				653D9B9B2537F4780090AFE5 /* 民生词库（gbk编码）.txt in Resources */,
+				653D9B982537F4780090AFE5 /* 敏感词及类型.txt in Resources */,
+				653D9B942537F4780090AFE5 /* 暴恐词库.txt in Resources */,
+				653D9B992537F4780090AFE5 /* 政治类.txt in Resources */,
+				653D9BA32537F4780090AFE5 /* .alipay.jpg in Resources */,
+				653D9B952537F4780090AFE5 /* sex_mingan.txt in Resources */,
+				653D9B962537F4780090AFE5 /* 网址.txt in Resources */,
+				653D9B3F2537F2440090AFE5 /* Main.storyboard in Resources */,
+				653D9BA62537F4780090AFE5 /* THUOCL_food.txt in Resources */,
+				653D9BA22537F4780090AFE5 /* donation.md in Resources */,
+				653D9B9D2537F4780090AFE5 /* ad_mingan.txt in Resources */,
+				653D9BA12537F4780090AFE5 /* .wechat.jpg in Resources */,
+				653D9B972537F4780090AFE5 /* 敏感词.txt in Resources */,
+				653D9B912537F4780090AFE5 /* THUOCL_animal.txt in Resources */,
+				653D9B9F2537F4780090AFE5 /* ChengYu_Corpus（5W）.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		653D9B4A2537F2550090AFE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		653D9B552537F2550090AFE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		653D9B2D2537F2440090AFE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				653D9B3C2537F2440090AFE5 /* ViewController.m in Sources */,
+				653D9B362537F2440090AFE5 /* AppDelegate.m in Sources */,
+				653D9BCB2538357A0090AFE5 /* needShowVC.m in Sources */,
+				653D9BC12538265D0090AFE5 /* LogCategory.m in Sources */,
+				653D9B472537F2520090AFE5 /* main.m in Sources */,
+				653D9B392537F2440090AFE5 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		653D9B482537F2550090AFE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				653D9B512537F2550090AFE5 /* dicGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		653D9B532537F2550090AFE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				653D9B5C2537F2550090AFE5 /* dicGameUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		653D9B4E2537F2550090AFE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 653D9B302537F2440090AFE5 /* dicGame */;
+			targetProxy = 653D9B4D2537F2550090AFE5 /* PBXContainerItemProxy */;
+		};
+		653D9B592537F2550090AFE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 653D9B302537F2440090AFE5 /* dicGame */;
+			targetProxy = 653D9B582537F2550090AFE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		653D9B3D2537F2440090AFE5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				653D9B3E2537F2440090AFE5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		653D9B422537F2520090AFE5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				653D9B432537F2520090AFE5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		653D9B5E2537F2550090AFE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		653D9B5F2537F2550090AFE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		653D9B612537F2550090AFE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J76R9R2C83;
+				INFOPLIST_FILE = dicGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bbl.demo.dicGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		653D9B622537F2550090AFE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J76R9R2C83;
+				INFOPLIST_FILE = dicGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bbl.demo.dicGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		653D9B642537F2550090AFE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J76R9R2C83;
+				INFOPLIST_FILE = dicGameTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bbl.demo.dicGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dicGame.app/dicGame";
+			};
+			name = Debug;
+		};
+		653D9B652537F2550090AFE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J76R9R2C83;
+				INFOPLIST_FILE = dicGameTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bbl.demo.dicGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dicGame.app/dicGame";
+			};
+			name = Release;
+		};
+		653D9B672537F2550090AFE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J76R9R2C83;
+				INFOPLIST_FILE = dicGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bbl.demo.dicGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = dicGame;
+			};
+			name = Debug;
+		};
+		653D9B682537F2550090AFE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J76R9R2C83;
+				INFOPLIST_FILE = dicGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bbl.demo.dicGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = dicGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		653D9B2C2537F2440090AFE5 /* Build configuration list for PBXProject "dicGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				653D9B5E2537F2550090AFE5 /* Debug */,
+				653D9B5F2537F2550090AFE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		653D9B602537F2550090AFE5 /* Build configuration list for PBXNativeTarget "dicGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				653D9B612537F2550090AFE5 /* Debug */,
+				653D9B622537F2550090AFE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		653D9B632537F2550090AFE5 /* Build configuration list for PBXNativeTarget "dicGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				653D9B642537F2550090AFE5 /* Debug */,
+				653D9B652537F2550090AFE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		653D9B662537F2550090AFE5 /* Build configuration list for PBXNativeTarget "dicGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				653D9B672537F2550090AFE5 /* Debug */,
+				653D9B682537F2550090AFE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 653D9B292537F2440090AFE5 /* Project object */;
+}
